@@ -348,7 +348,7 @@ class CfgVehicles
 	class 6B13_ColorBase : Clothing
 	{
 		scope = 0;
-		descriptionShort = "The 6B13 Vest has 93% damage reduction, Manufactured by Paragon";
+		descriptionShort = "The 6B13 Vest is a T4 vest.";
 		itemSize[] = {4,5};
 		class ClothingTypes
 		{
@@ -361,7 +361,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 1500;
+					hitpoints = 350;
 					healthLevels[] = {{1,{"ParagonGear\6B13\data\6B13.rvmat"}},{0.7,{"ParagonGear\6B13\data\6B13.rvmat"}},{0.5,{"ParagonGear\6B13\data\6B13_damage.rvmat"}},{0.3,{"ParagonGear\6B13\data\6B13_damage.rvmat"}},{0,{"ParagonGear\6B13\data\6B13_destruct.rvmat"}}};
 				};
 			};
@@ -1415,6 +1415,102 @@ class CfgVehicles
 				{
 					soundset="SmershVest_drop_SoundSet";
 					id=898;
+				};
+			};
+		};
+	};
+	class TacticalVest_ColorBase : Clothing
+	{
+		scope = 0;
+		descriptionShort = "The Tactical Vest is a T2 armor";
+		itemSize[] = { 4,4 };
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 350;
+					healthLevels[] = { {1,{"ParagonGear\TacticalVest\data\TacticalVest.rvmat"}},{0.7,{"ParagonGear\TacticalVest\data\TacticalVest.rvmat"}},{0.5,{"ParagonGear\TacticalVest\data\TacticalVest_damage.rvmat"}},{0.3,{"ParagonGear\TacticalVest\data\TacticalVest_damage.rvmat"}},{0,{"ParagonGear\TacticalVest\data\TacticalVest_destruct.rvmat"}} };
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.3;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.3;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "SmershVest_pickup_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "SmershVest_drop_SoundSet";
+					id = 898;
 				};
 			};
 		};
