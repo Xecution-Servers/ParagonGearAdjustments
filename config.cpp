@@ -131,7 +131,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.07; //bullet damage reduction
+						damage = 0.09; //bullet damage reduction
 					};
 					class Blood
 					{
@@ -139,7 +139,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //bullet shock damage reduction
+						damage = 0.09; //bullet shock damage reduction
 					};
 				};
 				class Melee
@@ -154,7 +154,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //melee shock damage reduction
+						damage = 0.15; //melee shock damage reduction
 					};
 				};
 				class Infected
@@ -206,145 +206,6 @@ class CfgVehicles
 				};
 			};
 		};
-	class Compact_6B43_ColorBase: Clothing
-	{
-		scope = 0;
-		itemSize[] = {4,4};
-		itemsCargoSize[] = {0,0};
-		descriptionShort = "The Compact 6B43 is a T3 armor";
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=350;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ParagonGear\6B43Vest\data\6B43Vest.rvmat"
-							}
-						},
-						
-						{
-							0.7,
-							
-							{
-								"ParagonGear\6B43Vest\data\6B43Vest.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ParagonGear\6B43Vest\data\6B43Vest_damage.rvmat"
-							}
-						},
-						
-						{
-							0.3,
-							
-							{
-								"ParagonGear\6B43Vest\data\6B43Vest_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ParagonGear\6B43Vest\data\6B43Vest_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-			class GlobalArmor
-			{
-				class Projectile
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0.04;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Melee
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Infected
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0.01;
-					};
-					class Shock
-					{
-						damage = 0.01;
-					};
-				};
-				class FragGrenade
-				{
-					class Health
-					{
-						damage = 0.36;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-			};
-		};
-	class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="SmershVest_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="SmershVest_drop_SoundSet";
-					id=898;
-				};
-			};
-		};
-	};
 	class 6B13_ColorBase : Clothing
 	{
 		scope = 0;
@@ -371,7 +232,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.07; //bullet damage reduction
+						damage = 0.09; //bullet damage reduction
 					};
 					class Blood
 					{
@@ -379,7 +240,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //bullet shock damage reduction
+						damage = 0.09; //bullet shock damage reduction
 					};
 				};
 				class Melee
@@ -394,7 +255,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //melee shock damage reduction
+						damage = 0.15; //melee shock damage reduction
 					};
 				};
 				class Infected
@@ -442,284 +303,6 @@ class CfgVehicles
 				{
 					soundset = "SmershVest_drop_SoundSet";
 					id = 898;
-				};
-			};
-		};
-	};
-	class DCS_V2_ColorBase: Clothing
-	{
-		scope = 0;
-		itemSize[] = {5,5};
-		itemsCargoSize[] = {0,0};
-		descriptionShort = "The Heavy DCS is a T3 armor";
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=350;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ParagonGear\DCS\data\Vest.rvmat","ParagonGear\DCS\data\Protection.rvmat"
-							}
-						},
-						
-						{
-							0.7,
-							
-							{
-								"ParagonGear\DCS\data\Vest.rvmat","ParagonGear\DCS\data\Protection.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ParagonGear\DCS\data\Vest_damage.rvmat","ParagonGear\DCS\data\Protection_damage.rvmat"
-							}
-						},
-						
-						{
-							0.3,
-							
-							{
-								"ParagonGear\DCS\data\Vest_damage.rvmat","ParagonGear\DCS\data\Protection_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ParagonGear\DCS\data\Vest_destruct.rvmat","ParagonGear\DCS\data\Protection_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-			class GlobalArmor
-			{
-				class Projectile
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0.04;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Melee
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Infected
-				{
-					class Health
-					{
-						damage = 0.18;
-					};
-					class Blood
-					{
-						damage = 0.01;
-					};
-					class Shock
-					{
-						damage = 0.01;
-					};
-				};
-				class FragGrenade
-				{
-					class Health
-					{
-						damage = 0.36;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="SmershVest_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="SmershVest_drop_SoundSet";
-					id=898;
-				};
-			};
-		};
-	};
-	class DCS_L_ColorBase: Clothing
-	{
-		scope = 0;
-		itemSize[] = {4,4};
-		itemsCargoSize[] = {0,0};
-		descriptionShort = "The Light DCS is a T2 armor";
-				class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=350;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ParagonGear\DCS\data\Vest.rvmat"
-							}
-						},
-						
-						{
-							0.7,
-							
-							{
-								"ParagonGear\DCS\data\Vest.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ParagonGear\DCS\data\Vest_damage.rvmat"
-							}
-						},
-						
-						{
-							0.3,
-							
-							{
-								"ParagonGear\DCS\data\Vest_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ParagonGear\DCS\data\Vest_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-			class GlobalArmor
-			{
-				class Projectile
-				{
-					class Health
-					{
-						damage = 0.25;
-					};
-					class Blood
-					{
-						damage = 0.04;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Melee
-				{
-					class Health
-					{
-						damage = 0.25;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Infected
-				{
-					class Health
-					{
-						damage = 0.25;
-					};
-					class Blood
-					{
-						damage = 0.01;
-					};
-					class Shock
-					{
-						damage = 0.01;
-					};
-				};
-				class FragGrenade
-				{
-					class Health
-					{
-						damage = 0.5;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-			};
-		};
-	class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="SmershVest_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="SmershVest_drop_SoundSet";
-					id=898;
 				};
 			};
 		};
@@ -788,7 +371,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.07; //bullet damage reduction
+						damage = 0.09; //bullet damage reduction
 					};
 					class Blood
 					{
@@ -796,7 +379,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //bullet shock damage reduction
+						damage = 0.09; //bullet shock damage reduction
 					};
 				};
 				class Melee
@@ -811,7 +394,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07; //melee shock damage reduction
+						damage = 0.15; //melee shock damage reduction
 					};
 				};
 				class Infected
@@ -863,59 +446,59 @@ class CfgVehicles
 			};
 		};
 	};
-	class JPC_ColorBase: Clothing
+	class Compact_6B43_ColorBase : Clothing
 	{
 		scope = 0;
-		itemSize[] = {4,4};
-		itemsCargoSize[] = {0,0};
-		descriptionShort = "The JPC Vest is a T1 armor";
+		itemSize[] = { 4,4 };
+		itemsCargoSize[] = { 0,0 };
+		descriptionShort = "The Compact 6B43 is a T3 armor";
 		class DamageSystem
 		{
 			class GlobalHealth
 			{
 				class Health
 				{
-					hitpoints=375;
-					healthLevels[]=
+					hitpoints = 350;
+					healthLevels[] =
 					{
-						
+
 						{
 							1,
-							
+
 							{
-								"ParagonGear\JPC\data\JPC.rvmat"
+								"ParagonGear\6B43Vest\data\6B43Vest.rvmat"
 							}
 						},
-						
+
 						{
 							0.7,
-							
+
 							{
-								"ParagonGear\JPC\data\JPC.rvmat"
+								"ParagonGear\6B43Vest\data\6B43Vest.rvmat"
 							}
 						},
-						
+
 						{
 							0.5,
-							
+
 							{
-								"ParagonGear\JPC\data\JPC_damage.rvmat"
+								"ParagonGear\6B43Vest\data\6B43Vest_damage.rvmat"
 							}
 						},
-						
+
 						{
 							0.3,
-							
+
 							{
-								"ParagonGear\JPC\data\JPC_damage.rvmat"
+								"ParagonGear\6B43Vest\data\6B43Vest_damage.rvmat"
 							}
 						},
-						
+
 						{
 							0,
-							
+
 							{
-								"ParagonGear\JPC\data\JPC_destruct.rvmat"
+								"ParagonGear\6B43Vest\data\6B43Vest_destruct.rvmat"
 							}
 						}
 					};
@@ -927,7 +510,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.35;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -935,14 +518,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.18;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.35;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -950,14 +533,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.25;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.35;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -972,7 +555,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.5;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -985,19 +568,158 @@ class CfgVehicles
 				};
 			};
 		};
-	class AnimEvents
+		class AnimEvents
 		{
 			class SoundWeapon
 			{
 				class pickUpItem
 				{
-					soundSet="SmershVest_pickup_SoundSet";
-					id=797;
+					soundSet = "SmershVest_pickup_SoundSet";
+					id = 797;
 				};
 				class drop
 				{
-					soundset="SmershVest_drop_SoundSet";
-					id=898;
+					soundset = "SmershVest_drop_SoundSet";
+					id = 898;
+				};
+			};
+		};
+	};
+	class DCS_V2_ColorBase : Clothing
+	{
+		scope = 0;
+		itemSize[] = { 5,5 };
+		itemsCargoSize[] = { 0,0 };
+		descriptionShort = "The Heavy DCS is a T3 armor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 350;
+					healthLevels[] =
+					{
+
+						{
+							1,
+
+							{
+								"ParagonGear\DCS\data\Vest.rvmat","ParagonGear\DCS\data\Protection.rvmat"
+							}
+						},
+
+						{
+							0.7,
+
+							{
+								"ParagonGear\DCS\data\Vest.rvmat","ParagonGear\DCS\data\Protection.rvmat"
+							}
+						},
+
+						{
+							0.5,
+
+							{
+								"ParagonGear\DCS\data\Vest_damage.rvmat","ParagonGear\DCS\data\Protection_damage.rvmat"
+							}
+						},
+
+						{
+							0.3,
+
+							{
+								"ParagonGear\DCS\data\Vest_damage.rvmat","ParagonGear\DCS\data\Protection_damage.rvmat"
+							}
+						},
+
+						{
+							0,
+
+							{
+								"ParagonGear\DCS\data\Vest_destruct.rvmat","ParagonGear\DCS\data\Protection_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.18;
+					};
+					class Blood
+					{
+						damage = 0.04;
+					};
+					class Shock
+					{
+						damage = 0.18;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.18;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.25;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.18;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.36;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "SmershVest_pickup_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "SmershVest_drop_SoundSet";
+					id = 898;
 				};
 			};
 		};
@@ -1074,7 +796,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.18;
 					};
 				};
 				class Melee
@@ -1089,7 +811,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.25;
 					};
 				};
 				class Infected
@@ -1137,6 +859,145 @@ class CfgVehicles
 				{
 					soundset="SmershVest_drop_SoundSet";
 					id=898;
+				};
+			};
+		};
+	};
+	class DCS_L_ColorBase : Clothing
+	{
+		scope = 0;
+		itemSize[] = { 4,4 };
+		itemsCargoSize[] = { 0,0 };
+		descriptionShort = "The Light DCS is a T2 armor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 350;
+					healthLevels[] =
+					{
+
+						{
+							1,
+
+							{
+								"ParagonGear\DCS\data\Vest.rvmat"
+							}
+						},
+
+						{
+							0.7,
+
+							{
+								"ParagonGear\DCS\data\Vest.rvmat"
+							}
+						},
+
+						{
+							0.5,
+
+							{
+								"ParagonGear\DCS\data\Vest_damage.rvmat"
+							}
+						},
+
+						{
+							0.3,
+
+							{
+								"ParagonGear\DCS\data\Vest_damage.rvmat"
+							}
+						},
+
+						{
+							0,
+
+							{
+								"ParagonGear\DCS\data\Vest_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0.04;
+					};
+					class Shock
+					{
+						damage = 0.25;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.35;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.5;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "SmershVest_pickup_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "SmershVest_drop_SoundSet";
+					id = 898;
 				};
 			};
 		};
@@ -1213,7 +1074,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.25;
 					};
 				};
 				class Melee
@@ -1228,7 +1089,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.35;
 					};
 				};
 				class Infected
@@ -1236,145 +1097,6 @@ class CfgVehicles
 					class Health
 					{
 						damage = 0.25;
-					};
-					class Blood
-					{
-						damage = 0.01;
-					};
-					class Shock
-					{
-						damage = 0.01;
-					};
-				};
-				class FragGrenade
-				{
-					class Health
-					{
-						damage = 0.5;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-			};
-		};
-	class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="SmershVest_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="SmershVest_drop_SoundSet";
-					id=898;
-				};
-			};
-		};
-	};
-	class TacTec_ColorBase: Clothing
-	{
-		scope = 0;
-		itemSize[] = {4,4};
-		itemsCargoSize[] = {0,0};
-		descriptionShort = "The Tac Tec is a T1 armor";
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=375;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ParagonGear\TacTec\data\TacTec.rvmat"
-							}
-						},
-						
-						{
-							0.7,
-							
-							{
-								"ParagonGear\TacTec\data\TacTec.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ParagonGear\TacTec\data\TacTec_damage.rvmat"
-							}
-						},
-						
-						{
-							0.3,
-							
-							{
-								"ParagonGear\TacTec\data\TacTec_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ParagonGear\TacTec\data\TacTec_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-			class GlobalArmor
-			{
-				class Projectile
-				{
-					class Health
-					{
-						damage = 0.35;
-					};
-					class Blood
-					{
-						damage = 0.04;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Melee
-				{
-					class Health
-					{
-						damage = 0.35;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0.07;
-					};
-				};
-				class Infected
-				{
-					class Health
-					{
-						damage = 0.35;
 					};
 					class Blood
 					{
@@ -1448,7 +1170,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.25;
 					};
 				};
 				class Melee
@@ -1463,7 +1185,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.07;
+						damage = 0.35;
 					};
 				};
 				class Infected
@@ -1511,6 +1233,284 @@ class CfgVehicles
 				{
 					soundset = "SmershVest_drop_SoundSet";
 					id = 898;
+				};
+			};
+		};
+	};
+	class JPC_ColorBase : Clothing
+	{
+		scope = 0;
+		itemSize[] = { 4,4 };
+		itemsCargoSize[] = { 0,0 };
+		descriptionShort = "The JPC Vest is a T1 armor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 375;
+					healthLevels[] =
+					{
+
+						{
+							1,
+
+							{
+								"ParagonGear\JPC\data\JPC.rvmat"
+							}
+						},
+
+						{
+							0.7,
+
+							{
+								"ParagonGear\JPC\data\JPC.rvmat"
+							}
+						},
+
+						{
+							0.5,
+
+							{
+								"ParagonGear\JPC\data\JPC_damage.rvmat"
+							}
+						},
+
+						{
+							0.3,
+
+							{
+								"ParagonGear\JPC\data\JPC_damage.rvmat"
+							}
+						},
+
+						{
+							0,
+
+							{
+								"ParagonGear\JPC\data\JPC_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.3;
+					};
+					class Blood
+					{
+						damage = 0.04;
+					};
+					class Shock
+					{
+						damage = 0.25;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.35;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.35;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.35;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.5;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "SmershVest_pickup_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "SmershVest_drop_SoundSet";
+					id = 898;
+				};
+			};
+		};
+	};
+	class TacTec_ColorBase: Clothing
+	{
+		scope = 0;
+		itemSize[] = {4,4};
+		itemsCargoSize[] = {0,0};
+		descriptionShort = "The Tac Tec is a T1 armor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=375;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"ParagonGear\TacTec\data\TacTec.rvmat"
+							}
+						},
+						
+						{
+							0.7,
+							
+							{
+								"ParagonGear\TacTec\data\TacTec.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"ParagonGear\TacTec\data\TacTec_damage.rvmat"
+							}
+						},
+						
+						{
+							0.3,
+							
+							{
+								"ParagonGear\TacTec\data\TacTec_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"ParagonGear\TacTec\data\TacTec_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.3;
+					};
+					class Blood
+					{
+						damage = 0.04;
+					};
+					class Shock
+					{
+						damage = 0.25;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.35;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.35;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.35;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.5;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+	class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet="SmershVest_pickup_SoundSet";
+					id=797;
+				};
+				class drop
+				{
+					soundset="SmershVest_drop_SoundSet";
+					id=898;
 				};
 			};
 		};
@@ -1762,27 +1762,27 @@ class CfgVehicles
 	class Paragon_Space_Helmet_Black : Space_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Space Raider Helmet is a T4 helmet";
+		displayName = "Black Space Raider Helmet";
 	};
 	class Paragon_Space_Helmet_Blue : Space_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Space Raider Helmet is a T4 helmet";
+		displayName = "Blue Space Raider Helmet";
 	};
 	class Paragon_Space_Helmet_Desert : Space_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Space Raider Helmet is a T4 helmet";
+		displayName = "Desert Space Raider Helmet";
 	};
 	class Paragon_Space_Helmet_Green : Space_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Space Raider Helmet is a T4 helmet";
+		displayName = "Green Space Raider Helmet";
 	};
 	class Paragon_Space_Helmet_White : Space_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Space Raider Helmet is a T4 helmet";
+		displayName = "White Space Raider Helmet";
 	};
 	class Ballistic_Helmet_ColorBase : Mich2001Helmet
 	{
@@ -1888,31 +1888,31 @@ class CfgVehicles
 	class Paragon_Ballistic_H_Black : Ballistic_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Ballistic Helmet is a T4 helmet";
+		displayName = "Black Ballistic Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Black.paa" };
 	};
 	class Paragon_Ballistic_H_Blue : Ballistic_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Ballistic Helmet is a T4 helmet";
+		displayName = "Blue Ballistic Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Blue.paa" };
 	};
 	class Paragon_Ballistic_H_Green : Ballistic_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Ballistic Helmet is a T4 helmet";
+		displayName = "Green Ballistic Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Green.paa" };
 	};
 	class Paragon_Ballistic_H_Desert : Ballistic_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Ballistic Helmet is a T4 helmet";
+		displayName = "Desert Ballistic Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Desert.paa" };
 	};
 	class Paragon_Ballistic_H_Grey : Ballistic_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Ballistic Helmet is a T4 helmet";
+		displayName = "Grey Ballistic Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Grey.paa" };
 	};
 	class Altyn_Helmet_ColorBase: Clothing
@@ -2734,25 +2734,25 @@ class CfgVehicles
 	class Paragon_Combat_H_Black : Combat_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Combat Helmet is a T2 helmet";
+		displayName = "Black Combat Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Black.paa" };
 	};
 	class Paragon_Combat_H_Blue : Combat_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Combat Helmet is a T2 helmet";
+		displayName = "Blue Combat Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Blue.paa" };
 	};
 	class Paragon_Combat_H_Green : Combat_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Combat Helmet is a T2 helmet";
+		displayName = "Green Combat Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Green.paa" };
 	};
 	class Paragon_Combat_H_Desert : Combat_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "The Combat Helmet is a T2 helmet";
+		displayName = "Desert Combat Helmet";
 		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Desert.paa" };
 	};
 	class Tactical_Helmet_ColorBase: Mich2001Helmet
