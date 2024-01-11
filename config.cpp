@@ -131,22 +131,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.12; //bullet damage reduction
+						damage = 0.07; //bullet damage reduction
 					};
 					class Blood
 					{
-						damage = 0; //bullet blood loss reduction
+						damage = 0.04; //bullet blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0; //bullet shock damage reduction
+						damage = 0.07; //bullet shock damage reduction
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.12; //melee damage reduction
+						damage = 0.07; //melee damage reduction
 					};
 					class Blood
 					{
@@ -154,29 +154,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0; //melee shock damage reduction
+						damage = 0.07; //melee shock damage reduction
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.12; //zombie damage reduction
+						damage = 0.07; //zombie damage reduction
 					};
 					class Blood
 					{
-						damage = 0; //zombie blood loss reduction
+						damage = 0.01; //zombie blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0; //zombie shock damage reduction
+						damage = 0.01; //zombie shock damage reduction
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.2; //Grenade damage reduction
+						damage = 0.14; //Grenade damage reduction
 					};
 					class Blood
 					{
@@ -184,7 +184,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0; //Grenade shock damage reduction
+						damage = 0.07; //Grenade shock damage reduction
 					};
 				};
 			};
@@ -270,22 +270,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.20;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -293,29 +293,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -323,7 +323,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -371,60 +371,60 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.07; //bullet damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04; //bullet blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //bullet shock damage reduction
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.07; //melee damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0; //melee blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //melee shock damage reduction
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.1;
+						damage = 0.07; //zombie damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01; //zombie blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01; //zombie shock damage reduction
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.2;
+						damage = 0.14; //Grenade damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0; //Grenade blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //Grenade shock damage reduction
 					};
 				};
 			};
@@ -510,22 +510,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.2;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -533,29 +533,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -563,7 +563,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -649,15 +649,15 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
@@ -672,7 +672,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
@@ -683,18 +683,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -702,7 +702,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -788,60 +788,60 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.07; //bullet damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04; //bullet blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //bullet shock damage reduction
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.07; //melee damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0; //melee blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //melee shock damage reduction
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.07; //zombie damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01; //zombie blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01; //zombie shock damage reduction
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.2;
+						damage = 0.14; //Grenade damage reduction
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0; //Grenade blood loss reduction
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07; //Grenade shock damage reduction
 					};
 				};
 			};
@@ -931,18 +931,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.30;
+						damage = 0.35;
 					};
 					class Blood
 					{
@@ -950,29 +950,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.30;
+						damage = 0.35;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.40;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -980,7 +980,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1066,22 +1066,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.20;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -1089,29 +1089,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.12;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -1119,7 +1119,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1205,15 +1205,15 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
@@ -1228,7 +1228,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
@@ -1239,18 +1239,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -1258,7 +1258,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1348,18 +1348,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.30;
+						damage = 0.35;
 					};
 					class Blood
 					{
@@ -1367,29 +1367,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.30;
+						damage = 0.35;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.40;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -1397,7 +1397,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1440,15 +1440,15 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.04;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
@@ -1463,7 +1463,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
@@ -1474,18 +1474,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -1493,7 +1493,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1519,7 +1519,7 @@ class CfgVehicles
 	{
 		scope = 0;
 		itemSize[] = {4,4};
-		descriptionShort = "The Killa Helmet has 93% damage reduction";
+		descriptionShort = "The Killa Helmet is a T4 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Killa\Killa_m.p3d";
@@ -1587,11 +1587,11 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
@@ -1606,7 +1606,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
@@ -1617,18 +1617,18 @@ class CfgVehicles
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.2;
+						damage = 0.14;
 					};
 					class Blood
 					{
@@ -1636,7 +1636,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1658,11 +1658,268 @@ class CfgVehicles
 			};
 		};
 	};
+	class Space_Helmet_ColorBase : Mich2001Helmet
+	{
+		scope = 0;
+		descriptionShort = "The Space Raider Helmet is a T4 helmet";
+		itemSize[] = { 4,4 };
+		class ClothingTypes
+		{
+			male = "ParagonGear\Space_Helmet\Space_Helmet_m.p3d";
+			female = "ParagonGear\Space_Helmet\Space_Helmet_m.p3d";
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 250;
+					healthLevels[] = { {1,{"ParagonGear\Space_Helmet\data\Space_Helmet.rvmat"}},{0.7,{"ParagonGear\Space_Helmet\data\Space_Helmet.rvmat"}},{0.5,{"ParagonGear\Space_Helmet\data\Space_Helmet_damage.rvmat"}},{0.3,{"ParagonGear\Space_Helmet\data\Space_Helmet_damage.rvmat"}},{0,{"ParagonGear\Space_Helmet\data\Space_Helmet_destruct.rvmat"}} };
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.14;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "pickUpPot_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "BallisticHelmet_drop_SoundSet";
+					id = 898;
+				};
+			};
+		};
+	};
+	class Paragon_Space_Helmet_Black : Space_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Space Raider Helmet is a T4 helmet";
+	};
+	class Paragon_Space_Helmet_Blue : Space_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Space Raider Helmet is a T4 helmet";
+	};
+	class Paragon_Space_Helmet_Desert : Space_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Space Raider Helmet is a T4 helmet";
+	};
+	class Paragon_Space_Helmet_Green : Space_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Space Raider Helmet is a T4 helmet";
+	};
+	class Paragon_Space_Helmet_White : Space_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Space Raider Helmet is a T4 helmet";
+	};
+	class Ballistic_Helmet_ColorBase : Mich2001Helmet
+	{
+		scope = 0;
+		descriptionShort = "The Ballistic Helmet is a T4 helmet";
+		itemSize[] = { 3,3 };
+		class ClothingTypes
+		{
+			male = "ParagonGear2\Ballistic_Helmet\Ballistic_Helmet_m.p3d";
+			female = "ParagonGear2\Ballistic_Helmet\Ballistic_Helmet_m.p3d";
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 250;
+					healthLevels[] = { {1,{"ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet.rvmat"}},{0.7,{"ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet.rvmat"}},{0.5,{"ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_damage.rvmat"}},{0.3,{"ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_damage.rvmat"}},{0,{"ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_destruct.rvmat"}} };
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.07;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.14;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "pickUpPot_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "BallisticHelmet_drop_SoundSet";
+					id = 898;
+				};
+			};
+		};
+	};
+	class Paragon_Ballistic_H_Black : Ballistic_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Ballistic Helmet is a T4 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Black.paa" };
+	};
+	class Paragon_Ballistic_H_Blue : Ballistic_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Ballistic Helmet is a T4 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Blue.paa" };
+	};
+	class Paragon_Ballistic_H_Green : Ballistic_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Ballistic Helmet is a T4 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Green.paa" };
+	};
+	class Paragon_Ballistic_H_Desert : Ballistic_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Ballistic Helmet is a T4 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Desert.paa" };
+	};
+	class Paragon_Ballistic_H_Grey : Ballistic_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Ballistic Helmet is a T4 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear2\Ballistic_Helmet\data\Ballistic_Helmet_Grey.paa" };
+	};
 	class Altyn_Helmet_ColorBase: Clothing
 	{
 		scope = 0;
 		itemSize[] = {4,4};
-		descriptionShort = "The Altyn Helmet has 90% damage reduction";
+		descriptionShort = "The Altyn Helmet is a T3 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Altyn\Altyn_m.p3d";
@@ -1726,22 +1983,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -1749,29 +2006,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -1779,7 +2036,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1805,7 +2062,7 @@ class CfgVehicles
 	{
 		scope = 0;
 		itemSize[] = {4,4};
-		descriptionShort = "The Armored Helmet has 87% damage reduction";
+		descriptionShort = "The Armored Helmet is a T2 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Armored_Helmet\Armored_Helmet_m.p3d";
@@ -1869,22 +2126,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.13;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.13;
+						damage = 0.25;
 					};
 					class Blood
 					{
@@ -1892,29 +2149,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.13;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -1922,7 +2179,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -1947,19 +2204,8 @@ class CfgVehicles
 	class Scifi_Helmet_ColorBase: Mich2001Helmet
 	{
 		scope = 0;
-		model = "ParagonGear\Scifi_Helmet\Scifi_Helmet_g.p3d";
-		simulation="clothing";
-		vehicleClass="Clothing";
-		inventorySlot = "Headgear";
-		itemInfo[] = {"Clothing","Headgear"};
-		weight = 3500;
+		descriptionShort = "The Scifi Helmet is a T3 helmet";
 		itemSize[] = {3,3};
-		heatIsolation = 0.6;
-		attachments[] = {"NVG","helmetFlashlight"};
-		headSelectionsToHide[]={"Clipping_Helmet"};
-		repairableWithKits[] = {8};
-		repairCosts[] = {20};
-		hiddenSelections[] = {"Camo"};
 		class ClothingTypes
 		{
 			male = "ParagonGear\Scifi_Helmet\Scifi_Helmet_m.p3d";
@@ -2023,22 +2269,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -2046,29 +2292,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.15;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.4;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -2076,7 +2322,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -2102,7 +2348,7 @@ class CfgVehicles
 	{
 		scope = 0;
 		itemSize[] = {4,4};
-		descriptionShort = "The Maska Helmet has 81% damage reduction";
+		descriptionShort = "The Maska Helmet is a T3 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Maska\Maska_m.p3d";
@@ -2166,22 +2412,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.18;
 					};
 					class Blood
 					{
@@ -2189,29 +2435,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.18;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.5;
+						damage = 0.36;
 					};
 					class Blood
 					{
@@ -2219,7 +2465,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -2245,7 +2491,7 @@ class CfgVehicles
 	{
 		scope = 0;
 		itemSize[] = {3,3};
-		descriptionShort = "The Mando Helmet has 78% damage reduction";
+		descriptionShort = "The Mando Helmet is a T2 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Mando\Mando_m.p3d";
@@ -2309,22 +2555,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.21;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.21;
+						damage = 0.25;
 					};
 					class Blood
 					{
@@ -2332,29 +2578,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.21;
+						damage = 0.25;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.55;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -2362,7 +2608,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
@@ -2384,11 +2630,136 @@ class CfgVehicles
 			};
 		};
 	};
+	class Combat_Helmet_ColorBase : Mich2001Helmet
+	{
+		scope = 0;
+		descriptionShort = "The Combat Helmet is a T2 helmet";
+		itemSize[] = { 3,3 };
+		class ClothingTypes
+		{
+			male = "ParagonGear\Combat_Helmet\Combat_Helmet_m.p3d";
+			female = "ParagonGear\Combat_Helmet\Combat_Helmet_m.p3d";
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 250;
+					healthLevels[] = { {1,{"ParagonGear\Combat_Helmet\data\Combat_Helmet.rvmat"}},{0.7,{"ParagonGear\Combat_Helmet\data\Combat_Helmet.rvmat"}},{0.5,{"ParagonGear\Combat_Helmet\data\Combat_Helmet_damage.rvmat"}},{0.3,{"ParagonGear\Combat_Helmet\data\Combat_Helmet_damage.rvmat"}},{0,{"ParagonGear\Combat_Helmet\data\Combat_Helmet_destruct.rvmat"}} };
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Melee
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage = 0.25;
+					};
+					class Blood
+					{
+						damage = 0.01;
+					};
+					class Shock
+					{
+						damage = 0.01;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage = 0.5;
+					};
+					class Blood
+					{
+						damage = 0;
+					};
+					class Shock
+					{
+						damage = 0.07;
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet = "pickUpPot_SoundSet";
+					id = 797;
+				};
+				class drop
+				{
+					soundset = "BallisticHelmet_drop_SoundSet";
+					id = 898;
+				};
+			};
+		};
+	};
+	class Paragon_Combat_H_Black : Combat_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Combat Helmet is a T2 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Black.paa" };
+	};
+	class Paragon_Combat_H_Blue : Combat_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Combat Helmet is a T2 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Blue.paa" };
+	};
+	class Paragon_Combat_H_Green : Combat_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Combat Helmet is a T2 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Green.paa" };
+	};
+	class Paragon_Combat_H_Desert : Combat_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "The Combat Helmet is a T2 helmet";
+		hiddenSelectionsTextures[] = { "ParagonGear\Combat_Helmet\data\Combat_Helmet_Desert.paa" };
+	};
 	class Tactical_Helmet_ColorBase: Mich2001Helmet
 	{
 		scope = 0;
 		itemSize[] = {3,3};
-		descriptionShort = "The Tactical Helmet has 75% damage reduction";
+		descriptionShort = "The Tactical Helmet is a T1 helmet";
 		class ClothingTypes
 		{
 			male = "ParagonGear\Tactical_Helmet\TacHelm_m.p3d";
@@ -2452,22 +2823,22 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -2475,29 +2846,29 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.01;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.55;
+						damage = 0.5;
 					};
 					class Blood
 					{
@@ -2505,7 +2876,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0;
+						damage = 0.07;
 					};
 				};
 			};
