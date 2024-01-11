@@ -518,7 +518,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.18;
+						damage = 0.20;
 					};
 				};
 				class Melee
@@ -657,7 +657,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.18;
+						damage = 0.20;
 					};
 				};
 				class Melee
@@ -796,7 +796,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.18;
+						damage = 0.20;
 					};
 				};
 				class Melee
@@ -2910,7 +2910,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3049,7 +3049,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3188,7 +3188,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3327,7 +3327,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3466,7 +3466,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3605,7 +3605,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
@@ -3744,7 +3744,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=500;
+					hitpoints=700;
 					healthLevels[]=
 					{
 						
