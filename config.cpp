@@ -927,7 +927,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -942,7 +942,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -1066,7 +1066,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -1081,7 +1081,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -1162,7 +1162,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -1177,7 +1177,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 					class Blood
 					{
@@ -1301,7 +1301,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.4;
 					};
 					class Blood
 					{
@@ -1309,14 +1309,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.35;
+						damage = 0.4;
 					};
 					class Blood
 					{
@@ -1324,7 +1324,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.35;
+						damage = 0.4;
 					};
 				};
 				class Infected
@@ -1440,7 +1440,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.3;
+						damage = 0.4;
 					};
 					class Blood
 					{
@@ -1448,14 +1448,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.25;
+						damage = 0.3;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.35;
+						damage = 0.4;
 					};
 					class Blood
 					{
@@ -1463,7 +1463,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.35;
+						damage = 0.4;
 					};
 				};
 				class Infected
